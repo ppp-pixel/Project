@@ -1,0 +1,799 @@
+	*{
+			list-style: none;
+		
+		}
+		
+			.flexslider {
+				position: relative;
+				height: 3rem;
+				overflow: hidden;
+				
+			}
+			.flexslider img{
+				width: 100%;
+				height: 2.991rem;
+				z-index: 10;
+		
+			}
+		
+			.slides {
+				position: absolute;
+				top: 1rem;
+				left: 0.1rem;
+				z-index: 30;
+			}
+			
+			.slides li {
+				list-style: none;
+			}
+			
+			.slides img {
+				width: 90%;
+				height: 90%;
+			}
+			
+	.tehui img{
+		width: 100%;
+		height: 0.5rem;
+		margin-top: 0.26rem;
+	}
+			
+			.flex-control-nav {
+				position: absolute;
+				top: 7rem;
+				z-index: 2;
+				width: 100%;
+				text-align: center;
+			}
+			
+			.flex-control-nav li {
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				margin: 0 5px;
+				*display: inline;
+				zoom: 1;
+			}
+			
+			.flex-control-nav a {
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				line-height: 40px;
+				overflow: hidden;
+				cursor: pointer;
+			}
+			
+			.flex-control-nav .flex-active {
+				background-position: 0 0;
+			}
+			
+			.flex-direction-nav {
+				position: absolute;
+				z-index: 3;
+				width: 100%;
+				top: 55%;
+			}
+			
+			.flex-direction-nav li a {
+				display: block;
+				width: 50px;
+				height: 50px;
+				overflow: hidden;
+				cursor: pointer;
+				position: absolute;
+			}
+			
+			html {
+				font-size: 100px;
+			}
+			
+			div {
+				box-sizing: border-box;
+			}
+			
+			body,
+			input,
+			i,
+			a {
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				outline: none;
+				font-size: 0.12rem;
+			}
+			
+			body {
+				background: rgb(240, 240, 240);
+			}
+			
+			.header>.top {
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 10;
+				height: 0.4rem;
+				background: #FFFFFF;
+				font-size: 0.14rem;
+				color: white;
+				position: fixed;
+				width: 100%;
+				text-align: center;
+				padding-left: 0.17rem;
+				padding-right: 0.17rem;
+				line-height: 0.44rem;
+			}
+			
+			.header:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+			
+			.top input {
+				width: 2.96rem;
+				
+				position: absolute;
+				top: 0.5rem;
+				left: 0.4rem;
+			}
+			
+			.top1 {
+				width: 3.84rem;
+				height: 0.01rem;
+				position: absolute;
+				background: #FFFFFF;
+				left: -15px;
+			}
+			
+			.top ul {
+				margin-left: -0.2rem;
+				margin-top: 0.01rem;
+			}
+			
+			.top li {
+				list-style: none;
+				display: inline;
+				color: #666666;
+			}
+			
+			.top1 ul li:nth-of-type(2) {
+				color: black;
+				padding: 1.2rem;
+			}
+			
+			.search input {
+				border-radius: 0.2rem;
+				border: 1px solid #808080;
+				padding-left: 0.3rem;
+				background: url(img/图片5.png) no-repeat;
+			}
+		
+			.header>.banner {
+				margin-top: 0.44rem;
+			}
+			
+			.nav {
+				height: 0.8rem;
+				width: 100%;
+				display: flex;				
+				flex-flow: row;
+				justify-content: space-around;
+				padding-top: 0.05rem;
+				text-align: center;
+				margin-top:-1.5rem;
+				z-index: 10;
+				
+			}
+			.bbb img{
+				width: 100%;
+				height: 0.8rem;
+				margin-top:-0.004rem;
+			}
+			.nav div{
+			width: 20%;
+			}
+			
+			.first img,
+			.sec img,
+			.third img,
+			.four img,
+			.six img {
+				margin-top: 0.8rem;
+				width: 0.4rem;
+				height: 0.4rem;
+				
+			}
+
+			
+	
+		
+    .intro {
+				width: 100%;
+				height: 1.28rem;
+				margin-top: 0.73rem;
+				display: flex;
+				flex-flow: row;
+				justify-content: flex-start;
+				font-size: 0.09rem;
+				color: #333333;
+			}
+			
+			.intro>img {
+				width: 0.66rem;
+				height: 1.15rem;
+				margin-left: 0.07rem;
+			}
+			
+ .t-ctn {
+        width: 100%;
+        height: 1.15rem;
+        background: white;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .t-ctn .s-ctn {
+        height:1.2rem;
+        white-space: nowrap;
+        font-size: 0;
+    }
+
+    .t-ctn .s-ctn div {
+        font-size: 0.05rem;
+        box-sizing: border-box;
+        white-space: normal;
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow: hidden;
+        display: inline-block;
+        width: 0.75rem;
+        height: 1.15rem;   
+    }
+    
+     .t-ctn .s-ctn div  img{
+     	width: 0.8rem;
+     	margin-left: 0.06rem;
+        height: 0.79rem;
+        margin-top: 0.06rem;
+     }
+      .t-ctn .s-ctn div p{
+      	font-size: 0.1rem;
+      	margin-top: 0.035rem;
+      	text-align: center;
+      }
+      .xinren{
+      	width: 100%;
+      	background:white;
+      	
+      	margin-top: -0.1rem;
+      }
+      .xinren img{
+      	width: 100%;
+      	height: 0.45rem;
+      }
+      .t-ctn1 {
+        width: 100%;
+        background:white ;
+        text-align: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+    
+    }
+
+    .t-ctn1 .s-ctn1 {
+       
+        white-space: nowrap;
+        font-size: 0;
+    }
+
+    .t-ctn1 .s-ctn1 div {
+        font-size: 0.05rem;
+        box-sizing: border-box;
+        white-space: normal;
+     word-wrap: break-word;
+        word-break: break-all;
+        overflow: hidden;
+        display: inline-block;
+        width: 1.12rem;
+       
+    }
+    
+     .t-ctn1 .s-ctn1 div  img{
+     	width: 0.9rem;
+     	margin-left: 0.09rem;
+     	font-weight: bold;
+        height: 0.89rem;
+        margin-top: 0.06rem;
+     }
+     .xintiao img{
+     	width: 100%;
+    
+     	height: 0.45rem;
+     }
+     		.miaosha{
+			width: 100%;
+			background:white;
+			
+			margin-top: -0.085rem;
+		}
+		.jishiqi{
+			width: 100%;
+			
+			background: white;
+			margin-top: 0.09rem;
+		}
+		
+		.jishi{
+		margin-left: 2.7rem;
+	
+		}
+		.jishi div{
+			float:left ;
+		margin: 0.02rem;
+		}
+    .day,
+    .hour,
+    .minute,
+    .second {
+      border-radius: 20%;
+      color: #fff;
+      font-weight:bold;
+      font-size: 0.1rem;
+      text-align: center;
+      width: 0.2rem;
+      height:0.2rem;
+      background: black;
+    }
+    	
+    .jishi span{
+    	margin-left: -1.4rem;
+    	font-size: 0.13rem;
+    
+    	
+    }
+
+.tabClick {
+		background:white;
+	overflow: hidden;
+	margin-top: 0rem;
+
+}
+
+.tabClick li {
+	width: 30%;
+	list-style: none;
+	float: left;
+	margin-left: 0.1rem;
+	font-size: 0.12rem;
+}
+
+.tabClick li.active {
+	color:red;
+	transition: 0.1s;
+	font-weight: bold
+}
+
+.tabCon {
+	overflow: hidden;
+	margin-top: -0.12rem;
+}
+
+.tabBox {
+	position: relative
+}
+
+.tabList {
+	word-break: break-all;
+	width: 100%;
+	  overflow-x: auto;
+        overflow-y: hidden;
+	float: left;	
+	font-family: "Arial Black"
+}
+.kuai1{
+	  white-space: nowrap;
+	  width: 100%;
+	  background: white;
+	   margin-top: 0.05rem;
+}
+.kuai1 div {
+        font-size: 0.05rem;
+        box-sizing: border-box;
+        white-space: normal;
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow: hidden;
+        display: inline-block;
+        width: 1.1rem;
+        border-radius: 3%;
+   
+        background: white;
+    }
+    .kuai1 img{
+    	width: 1.1rem;
+    	height: 0.3rem;
+
+    	
+    }
+     .kuai1 div a img{
+     	width: 1.1rem;
+        height: 0.9rem;
+        margin-top: 0.087rem;
+            
+     
+     }
+      .kuai1 div span:nth-of-type(2){
+      	color: red;
+      	font-size: 0.06rem;
+      	margin-top: -0.5rem;
+      	
+      }
+
+     .kuai1 div span:nth-of-type(3){
+      	z-index: 190;
+      	font-size: 0.05rem;
+    color: white;
+        margin-left: 0.36rem;
+      position: relative;
+      top:0.22rem;
+
+      }
+       .kuai1 div span:nth-of-type(4){
+      	float:right;
+      	 	color: #CCCCCC;
+      }
+      .kuai1 div span:nth-of-type(5){
+      	color: #CCCCCC;
+      }
+      .shengyan{
+      	width: 100%;
+      	height: 0.6rem;
+      	background: white;
+      }
+.shengyan img{
+	width: 100%;
+	height: 0.45rem;
+}
+.sss{
+				
+				width: 100%;
+				display: flex;
+				flex-flow: row;
+				height: 1.9rem;
+				background:white;
+				justify-content: space-around;
+				border: 0.03rem solid white;
+				
+			}
+			
+			.one1 img,
+			.two1 img,
+			 img {
+				width: 1.8rem;
+				height: 1.8rem;
+			}
+			.diaoyan{
+				width: 100%;
+				height: 0.7rem;
+				background: white;
+			}
+			.diaoyan img{
+				width: 100%;
+				height: 0.65rem;
+			}
+			
+			.bantu{
+				width: 100%;
+				height: 0.5rem;
+				background: white;	
+							
+			}
+			
+		.bantu img{
+				width: 100%;
+				height: 0.42rem;
+				
+								
+			}
+			
+			   .bangdan{
+				height: 3.67rem;
+			width: 100%;
+			 background: white;
+		
+			
+}
+			.bangdan1{
+				width: 30%;
+				background:white;
+				height: 1.72rem;
+				float: left;	
+				border: 0.05rem solid #E8E8E8;
+				border-radius:4%;
+			
+				margin: 0.062rem;
+			}
+		
+			.bangdantou img{
+				width: 0.7rem;
+				height: 0.2rem;
+				margin-top: 0rem;
+				z-index: 0;
+				position: absolute;
+				
+			
+			}
+			.ccc img{
+				width: 0.2rem;
+				height: 0.2rem;
+				z-index: 2;
+				top: 0;
+			position: relative;
+	margin-top: 0rem;
+	left: 0.07rem;
+			}
+			.ccc span{
+				z-index:2;
+				position: relative;
+				color: white;
+				font-weight: bold;
+				left: 0.07rem;
+			}
+			.ccc1{
+				text-align: center;
+			}
+			.ccc1 img{
+			width: 1rem;
+			height: 1.1rem;
+		
+			position: relative;
+		}
+		  .ccc1 span{
+		  	text-align: center;
+			margin-top: -2rem;
+		}
+		.qushibang{
+			width: 100%;
+			height: 1.7rem;
+			background: white;
+	
+		}
+		.qushi {
+			width: 30%;
+			float: left;
+			margin-left: 0.1rem;
+		}
+		.qushi img {
+			width: 100%;
+			height: 1.6rem;
+			
+		}
+		
+       .gengduo img{
+       	width: 100%;
+       	height: 0.45rem;
+       	margin-top: 2rem;
+       }  
+       .quanyi{
+       	width: 100%;
+       background: white;
+       	height: 0.5rem;
+       	
+       	
+       } 
+       .quanyi img{
+       	width: 0.6rem;
+       	height: 0.5rem;
+       	float: left;
+       	margin-top: 0rem;
+       }
+        .quanyi span{
+        	line-height: 0.5rem;
+        	margin-left: 0.8rem;
+        }
+        .gongchang img{
+        	width: 100%;
+        	height: 0.7rem;
+        	
+        }
+.baohan{
+  width: 100%;
+
+  
+  }
+          .zhibo img{
+          	width: 100%;
+          	height: 0.5rem;
+          }
+                    .carousel.flexible .items {
+	display: none;
+
+}
+	
+.flex-item{
+	margin-left: 0.8rem;
+	
+
+	
+}
+	
+			
+			.cell {
+				padding-left: 0.12rem;
+				padding-right: 0.17rem;
+				background: white;
+				width: 100%;
+				height: 11rem;
+				text-align: center;
+				
+			}
+			
+			.title img{
+				width: 100%;
+				height: 0.5rem;
+				margin-top: 0.05rem;
+			
+				
+			}
+			.lan{
+				width: 100%;
+				height: 1rem;
+			background: white;
+			margin-top: 0.09rem;
+			}
+			
+			.lan div{
+			float: left;	
+			}
+			.lan1{
+				width: 30%;
+			
+				
+			}
+			.lan1 img{
+				float: left;
+				width: 1rem;
+				height: 1rem;
+			}
+			.lan2{
+			
+			width: 70%;	
+			}
+			.lan2 img{
+				width: 0.15rem;
+				height: 0.15rem;
+				border-radius: 100%;
+			}
+			.lan2 li:nth-of-type(1){
+				color: black;
+				font-size: 0.14rem;
+				margin-top: 0.1rem;
+				font-weight: bold;
+			}
+		.lan2 li:nth-of-type(3){
+				
+				margin-top: 0.2rem;
+				
+			}
+				.lann{
+				width: 100%;
+				height: 1.2rem;
+				
+				background:white;
+			}
+			.lann div{
+			float: left;	
+			}
+			.lann1{
+				width: 30%;
+			
+				
+			}
+			.lann1 img{
+				float: left;
+				width: 1rem;
+				height: 1rem;
+			}
+			.lann2{
+			
+			width: 70%;	
+			}
+			.lann2 img{
+				width: 0.15rem;
+				height: 0.15rem;
+				
+				border-radius: 100%;
+			}
+			.lann2 li:nth-of-type(1){
+				color: black;
+				font-size: 0.14rem;
+				margin-top: 0.1rem;
+				font-weight: bold;
+			}
+		.lann2 li:nth-of-type(3){
+				
+				margin-top: 0.2rem;
+				
+			}
+.baohan{
+  width: 100%;
+
+  
+  }
+
+  #btns button {
+  width: 25%;
+  height: 30px;
+  float: left;
+  background:white;
+  margin-top: -0.038rem;
+  border: 0.05rem solid white;
+  padding-bottom: 0.1rem;
+  }
+
+
+  #divs div {
+  width: 100%;
+  height: 5rem;
+ 
+ 
+
+  }
+.dibu {
+	width: 50%;
+	height:2.5rem;
+background: white;
+	float: left;
+	
+
+	
+
+}
+.dibu  img{
+	width: 100%;
+	height:1.5rem;
+}
+.dibu li{
+margin-left: -0.29rem;
+}
+.dibu li:nth-of-type(2){
+	padding-bottom: 0.1rem;
+	font-size:15px;
+	color: black;
+}
+.dibu li:nth-of-type(3){
+font-size:14px;
+float: left;
+	color: red;
+}
+
+		 .footer{
+       	position: fixed;
+       	width: 100%;
+       	left:0;
+       	bottom: 0;
+   
+       	z-index: 5;
+       	height: 0.5rem;
+        background:white;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        line-height: 0.24rem;
+       }
+     .footer img{
+     	width: 0.5rem;
+     	height: 0.5rem;
+     }
+      .btn {
+       	background:white;
+            outline: none;
+           z-index: 200;
+           position: fixed;
+           bottom: 200px;
+           border: none;
+           right: 10px;
+		   display:block;     
+    border-radius: 100%;
+        }
